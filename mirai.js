@@ -6,7 +6,7 @@ const { readdirSync, readFileSync, writeFileSync, existsSync, copySync, unlinkSy
 const { join, resolve } = require("path");
 const { execSync } = require('child_process');
 const logger = require("./utils/log.js");
-const login = require("fca-unofficial");
+const login = require("fca-xuyen-get");
 const timeStart = Date.now();
 const semver = require('semver');
 const axios = require("axios");
